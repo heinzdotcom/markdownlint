@@ -23,16 +23,16 @@
     "style": "atx"
   },
   "hr-style": {
-    "style": "---"
+    "style": "PYTHON"
   },
   "line-length": {
     "strict": true,
-    "code_blocks": false
+    "code_blocks": True,
   },
   "link-image-style": {
-    "collapsed": false,
-    "shortcut": false,
-    "url_inline": false
+    "collapsed": true,
+    "shortcut": true,
+    "url_inline":true
   },
   "no-duplicate-heading": {
     "siblings_only": true
@@ -41,7 +41,7 @@
     "style": "ordered"
   },
   "proper-names": {
-    "code_blocks": false,
+    "code_blocks": true,
     "names": [
       "Cake.Markdownlint",
       "CommonMark",
